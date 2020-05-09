@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff url(../css/img/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../css/img/detalhe-topo.png) no-repeat right top;
+    padding: 25px;
+}
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../css/img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+ul {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#navegação {
+   margin-top: 30px;
+   background: #b10333;
+   float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.3em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../css/img/divisor.png) no-repeat left center;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegação a#home, 
+body.brasil #navegação a#brasil,
+body.internacional #navegação a#internacional,
+body.saude #navegação a#saude,
+body.fotos #navegação a#fotos,
+body.economia #navegação a#economia,
+body.ciência #navegação a#ciência {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;;
+}
+#Conteudo3 {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+#Conteudo1 {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    
+}
+
+#uma-coluna #Conteudo1 {
+    width: 1000px;
+    margin: 0 0 20px 0;
+}
+
+#duas-colunas  #Conteudo1 {
+    width: 555px;
+}
+
+#Conteudo2{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+ 
+}
+/*caixas*/
+.caixa {
+    margin: 10px;
+    padding: 5px;
+    background: #f3f3f3 url(../css/img/fundo-caixa.png);
+}
+h2 {
+    font-size: 1.em;
+    background: #299471;
+    padding: 5px;
+    color: #fff;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*Formatar menus laterais*/
+
+#Conteudo3 ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom:  1px solid #f3f3f3;
+}
+
+#Conteudo3 ul a:hover{
+    background: #f9f9f9 url(../css/img/marcador.png) no-repeat left center;
+    padding-left: 18px;
+    color:#a1a1a1;
+}
+
+/*Formatando formulários*/
+
+label {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    font-size: 0,9em;
+    background: #fff;
+    padding: 5px;
+
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border:  2px solid #870529;
+}
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*Formatação do cabeçalho*/
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque {
+    background: #b10333;
+    color: #fff;
+}
+
+/*Formatação links inferiores, lista de noticias*/
+
+#lista-noticias li  {
+    padding: 2px;
+    border-radius: 1px solid #ccc; 
+    height: 62px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+ }
+ 
+
+#lista-noticias li a h3  {
+    font-size: 0.8em;
+    padding: 0px;
+    color: red;
+}
+
+
+#lista-noticias li a  p {
+    font-size: 0.6em;
+}
+
+
+#lista-noticias li:hover {
+    color: darkblue;
+    cursor: pointer;
+}
+
+.lista-noticial {
+    float: left;
+    margin: 5px;
+}
+
+.city  {
+    text-align: center;
+}
+
+
+/*Rodape*/
+#container-rodape {
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
